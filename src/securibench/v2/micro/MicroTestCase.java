@@ -16,7 +16,7 @@
 /*
     $Id: MicroTestCase.java,v 1.4 2005/11/26 22:18:19 livshits Exp $
  */
-package securibench.micro;
+package securibench.v2.micro;
 
 /**
  * An interface all test cases are supposed to implement this interface.
