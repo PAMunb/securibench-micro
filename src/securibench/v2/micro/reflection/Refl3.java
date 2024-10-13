@@ -27,8 +27,8 @@ import java.lang.reflect.Field;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import securibench.micro.BasicTestCase;
-import securibench.micro.MicroTestCase;
+import securibench.v2.micro.BasicTestCase;
+import securibench.v2.micro.MicroTestCase;
 
 /**
  * @servlet description = "reflectively create a class and access its field"

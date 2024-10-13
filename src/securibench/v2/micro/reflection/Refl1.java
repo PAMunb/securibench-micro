@@ -28,8 +28,8 @@ import java.lang.reflect.Method;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import securibench.micro.BasicTestCase;
-import securibench.micro.MicroTestCase;
+import securibench.v2.micro.BasicTestCase;
+import securibench.v2.micro.MicroTestCase;
 
 /**
  * @servlet description="reflective call of a method"

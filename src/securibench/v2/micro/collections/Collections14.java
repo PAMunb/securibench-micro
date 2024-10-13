@@ -26,8 +26,8 @@ import java.util.LinkedList;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import securibench.micro.BasicTestCase;
-import securibench.micro.MicroTestCase;
+import securibench.v2.micro.BasicTestCase;
+import securibench.v2.micro.MicroTestCase;
 
 /**
  * @servlet description = "more complex collection copying through an array"
