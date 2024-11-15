@@ -15,7 +15,7 @@ Structure
 
 - src
     - securibench
-        - v1 (123)
+        - v1 (122)
             - Aliasing (6)
             - Arrays (10)
             - Basic (42)
@@ -27,8 +27,8 @@ Structure
             - Reflection (4)
             - Sanitizers (6)
             - Session (3)
-            - Strong Updates (6)
-        - v2 (123)
+            - Strong Updates (5)
+        - v2 (122)
             - Aliasing (6)
             - Arrays (10)
             - Basic (42)
@@ -40,4 +40,4 @@ Structure
             - Reflection (4)
             - Sanitizers (6)
             - Session (3)
-            - Strong Updates (6)
+            - Strong Updates (5)
