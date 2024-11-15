@@ -17,7 +17,7 @@ Structure
     - securibench
         - v1 (123)
             - Aliasing (6)
-            - Arrauys (10)
+            - Arrays (10)
             - Basic (42)
             - Collections (14)
             - DataStructures (6)
@@ -30,7 +30,7 @@ Structure
             - Strong Updates (6)
         - v2 (123)
             - Aliasing (6)
-            - Arrauys (10)
+            - Arrays (10)
             - Basic (42)
             - Collections (14)
             - DataStructures (6)
