@@ -1,11 +1,14 @@
 Securibench Micro (Upgrade)
 =================
 
-This is a fork of Securibench Micro repository https://github.com/too4words/securibench-micro that has been modified to hold two versions of the test suite.
+This is a fork of Securibench Micro repository https://github.com/too4words/securibench-micro and its main goals is to upgrade the way "servlets" are handle.
 
-***v1***: contents the test suite using **javax servlet api**
+We haved moved from **javax servlet api** to **Jakarta servlet** and in order not to lost the old code we have versioned it in two folders.
 
-***v2***: contents the test suite using **Jakarta servlet** (upgraded)
+
+***src/securibench/v1***: contents the test suite using **javax servlet api**
+
+***src/securibench/v2***: contents the test suite using **Jakarta servlet** (upgraded)
 
 Structure
 =================
