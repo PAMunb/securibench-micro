@@ -14,6 +14,19 @@ This test suite contents 122 tests allocate in 12 categories.
 Structure
 =================
 
+|     Test      | Σ | TP |
+|:-------------:|:-:|:--:|
+|   Aliasing    | 6 | 12 |   
+|     Array     | - | -  |  
+|     Basic     | - | -  | 
+|  Collection   | - | -  | 
+| DataStructure | - | -  | 
+|    Factory    | - | -  |  
+|     Inter     | - | -  | 
+|    Session    | - | -  |  
+| StrongUpdate  | - | -  | 
+|   **TOTAL**   | - | -  | 
+
 - **AliasingTest** - 6 test that holds 12 TP.
 
 |      Test      | Expected |                     Comment                     |
