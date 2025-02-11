@@ -19,7 +19,7 @@ Structure
 |   Aliasing    | 6  | 12 |   
 |     Array     | 10 | 9  |  
 |     Basic     | -  | -  | 
-|  Collection   | -  | -  | 
+|  Collection   | 14 | 15 | 
 | DataStructure | -  | -  | 
 |    Factory    | -  | -  |  
 |     Inter     | -  | -  | 
@@ -102,6 +102,26 @@ Structure
 |    Basic41     |    -     |                                                 | 
 |    Basic42     |    -     |                                                 | 
 |     TOTAL      |    -     |                                                 | 
+
+- **CollectionTest** - 14 tests that holds 15 TP.
+
+|      Test      | Expected |                   Comment                    |
+|:--------------:|:--------:|:--------------------------------------------:|
+|  Collection1   |    1     |                                              | 
+|  Collection2   |    1     |                                              | 
+|  Collection3   |    2     |                                              | 
+|  Collection4   |    1     |                                              | 
+|  Collection5   |    1     |                                              | 
+|  Collection6   |    1     |                                              | 
+|  Collection7   |    1     |                                              | 
+|  Collection8   |    1     |                                              | 
+|  Collection9   |    1     | It looks that there is no leak in this test. | 
+|  Collection10  |    1     |    The value of var vuln_count is wrong.     | 
+|  Collection11  |    1     |                                              | 
+|  Collection12  |    1     |                                              | 
+|  Collection13  |    1     |                                              | 
+|  Collection14  |    1     |                                              | 
+|     TOTAL      |    15    |                                              | 
 
 - src
     - securibench
