@@ -55,6 +55,53 @@ Structure
 |    Array10     |    1     |                                                 | 
 |     TOTAL      |    9     |                                                 | 
 
+- **BasicTest** - x tests that holds x TP.
+
+|      Test      | Expected |                     Comment                     |
+|:--------------:|:--------:|:-----------------------------------------------:|
+|     Basic1     |    -     |                                                 | 
+|     Basic2     |    -     |                                                 | 
+|     Basic3     |    -     |                                                 | 
+|     Basic4     |    -     |                                                 | 
+|     Basic5     |    -     |                                                 | 
+|     Basic6     |    -     |                                                 | 
+|     Basic7     |    -     |                                                 | 
+|     Basic8     |    -     |                                                 | 
+|     Basic9     |    -     |                                                 | 
+|    Basic10     |    -     |                                                 | 
+|    Basic11     |    -     |                                                 | 
+|    Basic12     |    -     |                                                 | 
+|    Basic13     |    -     |                                                 | 
+|    Basic14     |    -     |                                                 | 
+|    Basic15     |    -     |                                                 | 
+|    Basic16     |    -     |                                                 | 
+|    Basic17     |    -     |                                                 | 
+|    Basic18     |    -     |                                                 | 
+|    Basic19     |    -     |                                                 | 
+|    Basic20     |    -     |                                                 | 
+|    Basic21     |    -     |                                                 | 
+|    Basic22     |    -     |                                                 | 
+|    Basic23     |    -     |                                                 | 
+|    Basic24     |    -     |                                                 | 
+|    Basic25     |    -     |                                                 | 
+|    Basic26     |    -     |                                                 | 
+|    Basic27     |    -     |                                                 | 
+|    Basic28     |    -     |                                                 | 
+|    Basic29     |    -     |                                                 | 
+|    Basic30     |    -     |                                                 | 
+|    Basic31     |    -     |                                                 | 
+|    Basic32     |    -     |                                                 | 
+|    Basic33     |    -     |                                                 | 
+|    Basic34     |    -     |                                                 | 
+|    Basic35     |    -     |                                                 | 
+|    Basic36     |    -     |                                                 | 
+|    Basic37     |    -     |                                                 | 
+|    Basic38     |    -     |                                                 | 
+|    Basic39     |    -     |                                                 | 
+|    Basic40     |    -     |                                                 | 
+|    Basic41     |    -     |                                                 | 
+|    Basic42     |    -     |                                                 | 
+|     TOTAL      |    -     |                                                 | 
 
 - src
     - securibench
