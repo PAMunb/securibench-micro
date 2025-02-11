@@ -14,18 +14,18 @@ This test suite contents 122 tests allocate in 12 categories.
 Structure
 =================
 
-|     Test      | Σ | TP |
-|:-------------:|:-:|:--:|
-|   Aliasing    | 6 | 12 |   
-|     Array     | - | -  |  
-|     Basic     | - | -  | 
-|  Collection   | - | -  | 
-| DataStructure | - | -  | 
-|    Factory    | - | -  |  
-|     Inter     | - | -  | 
-|    Session    | - | -  |  
-| StrongUpdate  | - | -  | 
-|   **TOTAL**   | - | -  | 
+|     Test      | Σ  | TP |
+|:-------------:|:--:|:--:|
+|   Aliasing    | 6  | 12 |   
+|     Array     | 10 | 9  |  
+|     Basic     | -  | -  | 
+|  Collection   | -  | -  | 
+| DataStructure | -  | -  | 
+|    Factory    | -  | -  |  
+|     Inter     | -  | -  | 
+|    Session    | -  | -  |  
+| StrongUpdate  | -  | -  | 
+|   **TOTAL**   | -  | -  | 
 
 - **AliasingTest** - 6 test that holds 12 TP.
 
@@ -37,7 +37,23 @@ Structure
 |   Aliasing4    |    1     | It looks that there are two leaks in this test. | 
 |   Aliasing5    |    1     |                                                 | 
 |   Aliasing6    |    7     |                                                 | 
-|     TOTAL      |    12    |                                                 | 
+|     TOTAL      |    12    |                                                 |
+
+- **ArraysTest** - 10 tests that holds 9 TP.
+
+|      Test      | Expected |                     Comment                     |
+|:--------------:|:--------:|:-----------------------------------------------:|
+|     Array1     |    1     |                                                 | 
+|     Array2     |    1     |                                                 | 
+|     Array3     |    1     |                                                 | 
+|     Array4     |    1     |                                                 | 
+|     Array5     |    0     |                                                 | 
+|     Array6     |    1     |                                                 | 
+|     Array7     |    1     |                                                 | 
+|     Array8     |    1     |                                                 | 
+|     Array9     |    1     |                                                 | 
+|    Array10     |    1     |                                                 | 
+|     TOTAL      |    9     |                                                 | 
 
 
 - src
