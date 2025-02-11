@@ -14,6 +14,19 @@ This test suite contents 122 tests allocate in 12 categories.
 Structure
 =================
 
+- **AliasingTest** - 6 test that holds 12 TP.
+
+|      Test      | Expected |                     Comment                     |
+|:--------------:|:--------:|:-----------------------------------------------:|
+|   Aliasing1    |    1     |                                                 | 
+|   Aliasing2    |    1     |  It looks that there is no leak in this test.   | 
+|   Aliasing3    |    1     |                                                 | 
+|   Aliasing4    |    1     | It looks that there are two leaks in this test. | 
+|   Aliasing5    |    1     |                                                 | 
+|   Aliasing6    |    7     |                                                 | 
+|     TOTAL      |    12    |                                                 | 
+
+
 - src
     - securibench
         - v1 (122)
