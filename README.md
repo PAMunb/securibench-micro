@@ -27,7 +27,7 @@ Structure
 | StrongUpdate  | -  | -  | 
 |   **TOTAL**   | -  | -  | 
 
-- **AliasingTest** - 6 test that holds 12 TP.
+- **AliasingTest** - 6 tests that holds 12 TP.
 
 |      Test      | Expected |                     Comment                     |
 |:--------------:|:--------:|:-----------------------------------------------:|
