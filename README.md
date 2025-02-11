@@ -5,6 +5,7 @@ This is a fork of Securibench Micro repository https://github.com/too4words/secu
 
 We haved moved from **javax servlet api** to **Jakarta servlet** and in order not to lost the old code we have versioned it in two folders.
 
+This test suite contents 122 tests allocate in 12 categories.
 
 ***src/securibench/v1***: contents the test suite using **javax servlet api**
 
