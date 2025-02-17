@@ -21,7 +21,7 @@ Structure
 |     Basic     | -  | -  | 
 |  Collection   | 14 | 15 | 
 | DataStructure | 6  | 6  | 
-|    Factory    | -  | -  |  
+|    Factory    | 3  | 3  |  
 |     Inter     | -  | -  | 
 |    Session    | -  | -  |  
 | StrongUpdate  | -  | -  | 
@@ -135,6 +135,15 @@ Structure
 | DataStructure5 |    1     |                                                        |
 | DataStructure6 |    1     |                                                        |
 |     TOTAL      |    6     |                                                        |
+
+- **FactoryTest** - 3 tests that holds 3 TP.
+
+|      Test      | Expected |                        Comment                         |
+|:--------------:|:--------:|:------------------------------------------------------:|
+|    Factory1    |    1     |                                                        |
+|    Factory2    |    1     |                                                        |
+|    Factory3    |    1     |                                                        |
+|     TOTAL      |    3     |                                                        |
 
 - src
     - securibench
