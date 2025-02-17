@@ -20,7 +20,7 @@ Structure
 |     Array     | 10 | 9  |  
 |     Basic     | -  | -  | 
 |  Collection   | 14 | 15 | 
-| DataStructure | -  | -  | 
+| DataStructure | 6  | 6  | 
 |    Factory    | -  | -  |  
 |     Inter     | -  | -  | 
 |    Session    | -  | -  |  
@@ -121,7 +121,20 @@ Structure
 |  Collection12  |    1     |                                              | 
 |  Collection13  |    1     |                                              | 
 |  Collection14  |    1     |                                              | 
-|     TOTAL      |    15    |                                              | 
+|     TOTAL      |    15    |                                              |
+
+
+- **DataStructureTest** - 6 tests that holds 6 TP.
+
+|      Test      | Expected |                        Comment                         |
+|:--------------:|:--------:|:------------------------------------------------------:|
+| DataStructure1 |    1     |                                                        |
+| DataStructure2 |    1     |                                                        |
+| DataStructure3 |    1     |                                                        |
+| DataStructure4 |    1     | The comment says OK; however it counts 1 vulnerability |
+| DataStructure5 |    1     |                                                        |
+| DataStructure6 |    1     |                                                        |
+|     TOTAL      |    6     |                                                        |
 
 - src
     - securibench
