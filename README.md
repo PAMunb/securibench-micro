@@ -24,7 +24,7 @@ Structure
 |    Factory    | 3  | 3  |  
 |     Inter     | 14 | 17 | 
 |    Session    | 3  | 3  |  
-| StrongUpdate  | -  | -  | 
+| StrongUpdate  | 5  | 1  | 
 |   **TOTAL**   | -  | -  | 
 
 - **AliasingTest** - 6 tests that holds 12 TP.
@@ -177,6 +177,16 @@ Structure
 |     TOTAL      |    3     |                                                            |
 
 
+- **StrongUpdateTest** - 5 tests that holds 1 TP.
+
+|      Test      | Expected |                          Comment                           |
+|:--------------:|:--------:|:----------------------------------------------------------:|
+| StrongUpdate1  |    0     |                                                            |
+| StrongUpdate2  |    0     |                                                            |
+| StrongUpdate3  |    0     |                                                            |
+| StrongUpdate4  |    1     |                                                            |
+| StrongUpdate5  |    0     |                                                            |
+|     TOTAL      |    1     |                                                            |
 
 - src
     - securibench
