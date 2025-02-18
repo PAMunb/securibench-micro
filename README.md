@@ -22,8 +22,8 @@ Structure
 |  Collection   | 14 | 15 | 
 | DataStructure | 6  | 6  | 
 |    Factory    | 3  | 3  |  
-|     Inter     | 14  | 17  | 
-|    Session    | -  | -  |  
+|     Inter     | 14 | 17 | 
+|    Session    | 3  | 3  |  
 | StrongUpdate  | -  | -  | 
 |   **TOTAL**   | -  | -  | 
 
@@ -165,6 +165,17 @@ Structure
 |    Inter13     |    1     |                                                            |
 |    Inter14     |    1     |                                                            |
 |     TOTAL      |    17    |                                                            |
+
+
+- **SessionTest** - 3 tests that holds 3 TP.
+
+|      Test      | Expected |                          Comment                           |
+|:--------------:|:--------:|:----------------------------------------------------------:|
+|    Session1    |    1     |                                                            |
+|    Session2    |    1     |                                                            |
+|    Session3    |    1     |                                                            |
+|     TOTAL      |    3     |                                                            |
+
 
 
 - src
