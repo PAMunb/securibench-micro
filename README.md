@@ -22,7 +22,7 @@ Structure
 |  Collection   | 14 | 15 | 
 | DataStructure | 6  | 6  | 
 |    Factory    | 3  | 3  |  
-|     Inter     | -  | -  | 
+|     Inter     | 14  | 17  | 
 |    Session    | -  | -  |  
 | StrongUpdate  | -  | -  | 
 |   **TOTAL**   | -  | -  | 
@@ -144,6 +144,28 @@ Structure
 |    Factory2    |    1     |                                                        |
 |    Factory3    |    1     |                                                        |
 |     TOTAL      |    3     |                                                        |
+
+
+- **InterTest** - 14 tests that holds 17 TP.
+
+|      Test      | Expected |                          Comment                           |
+|:--------------:|:--------:|:----------------------------------------------------------:|
+|     Inter1     |    1     |                                                            |
+|     Inter2     |    2     | The comments say 1 BAD; however it counts 2 vulnerability. |
+|     Inter3     |    1     |                                                            |
+|     Inter4     |    2     | The comments say 1 BAD; however it counts 2 vulnerability  |
+|     Inter5     |    2     | The comments say 1 BAD; however it counts 2 vulnerability  |
+|     Inter6     |    1     |                                                            |
+|     Inter7     |    1     |                                                            |
+|     Inter8     |    1     |                                                            |
+|     Inter9     |    1     | The comments say 2 BADs; however it counts 1 vulnerability |
+|    Inter10     |    1     |           The value of var vuln_count is wrong.            |
+|    Inter11     |    1     |                                                            |
+|    Inter12     |    1     |                                                            |
+|    Inter13     |    1     |                                                            |
+|    Inter14     |    1     |                                                            |
+|     TOTAL      |    17    |                                                            |
+
 
 - src
     - securibench
