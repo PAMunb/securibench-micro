@@ -18,7 +18,7 @@ Structure
 |:-------------:|:---:|:---:|
 |   Aliasing    |  6  | 12  |   
 |     Array     | 10  |  9  |  
-|     Basic     | 42  | 61  | 
+|     Basic     | 42  | 60  | 
 |  Collection   | 14  | 15  | 
 | DataStructure |  6  |  6  | 
 |    Factory    |  3  |  3  |  
@@ -89,7 +89,7 @@ Structure
 |    Basic28     |    2     |                                                           | 
 |    Basic29     |    2     |                                                           | 
 |    Basic30     |    1     |                                                           | 
-|    Basic31     |    3     |   It reports 3 BADs; however, counts 2 vulnerabilities.   | 
+|    Basic31     |    2     |   It reports 3 BADs; however, counts 2 vulnerabilities.   | 
 |    Basic32     |    1     |                                                           | 
 |    Basic33     |    1     |                                                           | 
 |    Basic34     |    2     |                                                           | 
@@ -101,7 +101,7 @@ Structure
 |    Basic40     |    1     | It does have any report; however, counts 1 vulnerability. | 
 |    Basic41     |    1     |                                                           | 
 |    Basic42     |    1     |                                                           | 
-|     TOTAL      |    61    |                                                           | 
+|     TOTAL      |    60    |                                                           | 
 
 - **CollectionTest** - 14 tests that holds 15 TP.
 
