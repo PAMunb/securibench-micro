@@ -188,31 +188,6 @@ Structure
 | StrongUpdate5  |    0     |                                                            |
 |     TOTAL      |    1     |                                                            |
 
-- src
-    - securibench
-        - v1 (122)
-            - Aliasing (6)
-            - Arrays (10)
-            - Basic (42)
-            - Collections (14)
-            - DataStructures (6)
-            - Factories (3)
-            - Inter (14)
-            - Pred (9)
-            - Reflection (4)
-            - Sanitizers (6)
-            - Session (3)
-            - Strong Updates (5)
-        - v2 (122)
-            - Aliasing (6)
-            - Arrays (10)
-            - Basic (42)
-            - Collections (14)
-            - DataStructures (6)
-            - Factories (3)
-            - Inter (14)
-            - Pred (9)
-            - Reflection (4)
-            - Sanitizers (6)
-            - Session (3)
-            - Strong Updates (5)
+<!-- - Pred (9)
+- Reflection (4)
+- Sanitizers (6) -->
