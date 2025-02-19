@@ -18,7 +18,7 @@ Structure
 |:-------------:|:--:|:--:|
 |   Aliasing    | 6  | 12 |   
 |     Array     | 10 | 9  |  
-|     Basic     | -  | -  | 
+|     Basic     | 42 | 61 | 
 |  Collection   | 14 | 15 | 
 | DataStructure | 6  | 6  | 
 |    Factory    | 3  | 3  |  
@@ -55,53 +55,53 @@ Structure
 |    Array10     |    1     |                                                 | 
 |     TOTAL      |    9     |                                                 | 
 
-- **BasicTest** - x tests that holds x TP.
+- **BasicTest** - 42 tests that holds 61 TP.
 
-|      Test      | Expected |                     Comment                     |
-|:--------------:|:--------:|:-----------------------------------------------:|
-|     Basic1     |    -     |                                                 | 
-|     Basic2     |    -     |                                                 | 
-|     Basic3     |    -     |                                                 | 
-|     Basic4     |    -     |                                                 | 
-|     Basic5     |    -     |                                                 | 
-|     Basic6     |    -     |                                                 | 
-|     Basic7     |    -     |                                                 | 
-|     Basic8     |    -     |                                                 | 
-|     Basic9     |    -     |                                                 | 
-|    Basic10     |    -     |                                                 | 
-|    Basic11     |    -     |                                                 | 
-|    Basic12     |    -     |                                                 | 
-|    Basic13     |    -     |                                                 | 
-|    Basic14     |    -     |                                                 | 
-|    Basic15     |    -     |                                                 | 
-|    Basic16     |    -     |                                                 | 
-|    Basic17     |    -     |                                                 | 
-|    Basic18     |    -     |                                                 | 
-|    Basic19     |    -     |                                                 | 
-|    Basic20     |    -     |                                                 | 
-|    Basic21     |    -     |                                                 | 
-|    Basic22     |    -     |                                                 | 
-|    Basic23     |    -     |                                                 | 
-|    Basic24     |    -     |                                                 | 
-|    Basic25     |    -     |                                                 | 
-|    Basic26     |    -     |                                                 | 
-|    Basic27     |    -     |                                                 | 
-|    Basic28     |    -     |                                                 | 
-|    Basic29     |    -     |                                                 | 
-|    Basic30     |    -     |                                                 | 
-|    Basic31     |    -     |                                                 | 
-|    Basic32     |    -     |                                                 | 
-|    Basic33     |    -     |                                                 | 
-|    Basic34     |    -     |                                                 | 
-|    Basic35     |    -     |                                                 | 
-|    Basic36     |    -     |                                                 | 
-|    Basic37     |    -     |                                                 | 
-|    Basic38     |    -     |                                                 | 
-|    Basic39     |    -     |                                                 | 
-|    Basic40     |    -     |                                                 | 
-|    Basic41     |    -     |                                                 | 
-|    Basic42     |    -     |                                                 | 
-|     TOTAL      |    -     |                                                 | 
+|      Test      | Expected |                            Comment                             |
+|:--------------:|:--------:|:--------------------------------------------------------------:|
+|     Basic1     |    1     |                                                                | 
+|     Basic2     |    1     |                                                                | 
+|     Basic3     |    1     |                                                                | 
+|     Basic4     |    1     |                                                                | 
+|     Basic5     |    3     |                                                                | 
+|     Basic6     |    1     |                                                                | 
+|     Basic7     |    1     |                                                                | 
+|     Basic8     |    1     |                                                                | 
+|     Basic9     |    1     |                                                                | 
+|    Basic10     |    1     |                                                                | 
+|    Basic11     |    2     |                                                                | 
+|    Basic12     |    2     |                                                                | 
+|    Basic13     |    1     |                                                                | 
+|    Basic14     |    1     |                                                                | 
+|    Basic15     |    1     |                                                                | 
+|    Basic16     |    1     |                                                                | 
+|    Basic17     |    1     |                                                                | 
+|    Basic18     |    1     |                                                                | 
+|    Basic19     |    1     |                                                                | 
+|    Basic20     |    1     |                                                                | 
+|    Basic21     |    4     |                                                                | 
+|    Basic22     |    1     |                                                                | 
+|    Basic23     |    3     |                                                                | 
+|    Basic24     |    1     |                                                                | 
+|    Basic25     |    1     |                                                                | 
+|    Basic26     |    1     | It does have any comment; however, it counts 1 vulnerability.  | 
+|    Basic27     |    1     |                                                                | 
+|    Basic28     |    2     |                                                                | 
+|    Basic29     |    2     |                                                                | 
+|    Basic30     |    1     |                                                                | 
+|    Basic31     |    3     | The comments says 3 OKs; however, it counts 2 vulnerabilities. | 
+|    Basic32     |    1     |                                                                | 
+|    Basic33     |    1     |                                                                | 
+|    Basic34     |    2     |                                                                | 
+|    Basic35     |    6     |                                                                | 
+|    Basic36     |    1     |                                                                | 
+|    Basic37     |    1     |                                                                | 
+|    Basic38     |    1     |                                                                | 
+|    Basic39     |    1     |                                                                | 
+|    Basic40     |    1     | It does have any comment; however, it counts 1 vulnerability.  | 
+|    Basic41     |    1     |                                                                | 
+|    Basic42     |    1     |                                                                | 
+|     TOTAL      |    61    |                                                                | 
 
 - **CollectionTest** - 14 tests that holds 15 TP.
 
