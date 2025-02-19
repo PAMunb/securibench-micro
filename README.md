@@ -29,15 +29,15 @@ Structure
 
 - **AliasingTest** - 6 tests that holds 12 TP.
 
-|      Test      | Expected |                     Comment                     |
-|:--------------:|:--------:|:-----------------------------------------------:|
-|   Aliasing1    |    1     |                                                 | 
-|   Aliasing2    |    1     |  It looks that there is no leak in this test.   | 
-|   Aliasing3    |    1     |                                                 | 
-|   Aliasing4    |    1     | It looks that there are two leaks in this test. | 
-|   Aliasing5    |    1     |                                                 | 
-|   Aliasing6    |    7     |                                                 | 
-|     TOTAL      |    12    |                                                 |
+|      Test      | Expected |                          Comment                          |
+|:--------------:|:--------:|:---------------------------------------------------------:|
+|   Aliasing1    |    1     |                                                           | 
+|   Aliasing2    |    1     | It does have any report; however, counts 1 vulnerability. | 
+|   Aliasing3    |    1     |                                                           | 
+|   Aliasing4    |    1     |    It reports 2 BADs; however, counts 1 vulnerability.    | 
+|   Aliasing5    |    1     |                                                           | 
+|   Aliasing6    |    7     |                                                           | 
+|     TOTAL      |    12    |                                                           |
 
 - **ArraysTest** - 10 tests that holds 9 TP.
 
@@ -57,84 +57,84 @@ Structure
 
 - **BasicTest** - 42 tests that holds 61 TP.
 
-|      Test      | Expected |                            Comment                             |
-|:--------------:|:--------:|:--------------------------------------------------------------:|
-|     Basic1     |    1     |                                                                | 
-|     Basic2     |    1     |                                                                | 
-|     Basic3     |    1     |                                                                | 
-|     Basic4     |    1     |                                                                | 
-|     Basic5     |    3     |                                                                | 
-|     Basic6     |    1     |                                                                | 
-|     Basic7     |    1     |                                                                | 
-|     Basic8     |    1     |                                                                | 
-|     Basic9     |    1     |                                                                | 
-|    Basic10     |    1     |                                                                | 
-|    Basic11     |    2     |                                                                | 
-|    Basic12     |    2     |                                                                | 
-|    Basic13     |    1     |                                                                | 
-|    Basic14     |    1     |                                                                | 
-|    Basic15     |    1     |                                                                | 
-|    Basic16     |    1     |                                                                | 
-|    Basic17     |    1     |                                                                | 
-|    Basic18     |    1     |                                                                | 
-|    Basic19     |    1     |                                                                | 
-|    Basic20     |    1     |                                                                | 
-|    Basic21     |    4     |                                                                | 
-|    Basic22     |    1     |                                                                | 
-|    Basic23     |    3     |                                                                | 
-|    Basic24     |    1     |                                                                | 
-|    Basic25     |    1     |                                                                | 
-|    Basic26     |    1     | It does have any comment; however, it counts 1 vulnerability.  | 
-|    Basic27     |    1     |                                                                | 
-|    Basic28     |    2     |                                                                | 
-|    Basic29     |    2     |                                                                | 
-|    Basic30     |    1     |                                                                | 
-|    Basic31     |    3     | The comments says 3 OKs; however, it counts 2 vulnerabilities. | 
-|    Basic32     |    1     |                                                                | 
-|    Basic33     |    1     |                                                                | 
-|    Basic34     |    2     |                                                                | 
-|    Basic35     |    6     |                                                                | 
-|    Basic36     |    1     |                                                                | 
-|    Basic37     |    1     |                                                                | 
-|    Basic38     |    1     |                                                                | 
-|    Basic39     |    1     |                                                                | 
-|    Basic40     |    1     | It does have any comment; however, it counts 1 vulnerability.  | 
-|    Basic41     |    1     |                                                                | 
-|    Basic42     |    1     |                                                                | 
-|     TOTAL      |    61    |                                                                | 
+|      Test      | Expected |                          Comment                          |
+|:--------------:|:--------:|:---------------------------------------------------------:|
+|     Basic1     |    1     |                                                           | 
+|     Basic2     |    1     |                                                           | 
+|     Basic3     |    1     |                                                           | 
+|     Basic4     |    1     |                                                           | 
+|     Basic5     |    3     |                                                           | 
+|     Basic6     |    1     |                                                           | 
+|     Basic7     |    1     |                                                           | 
+|     Basic8     |    1     |                                                           | 
+|     Basic9     |    1     |                                                           | 
+|    Basic10     |    1     |                                                           | 
+|    Basic11     |    2     |                                                           | 
+|    Basic12     |    2     |                                                           | 
+|    Basic13     |    1     |                                                           | 
+|    Basic14     |    1     |                                                           | 
+|    Basic15     |    1     |                                                           | 
+|    Basic16     |    1     |                                                           | 
+|    Basic17     |    1     |                                                           | 
+|    Basic18     |    1     |                                                           | 
+|    Basic19     |    1     |                                                           | 
+|    Basic20     |    1     |                                                           | 
+|    Basic21     |    4     |                                                           | 
+|    Basic22     |    1     |                                                           | 
+|    Basic23     |    3     |                                                           | 
+|    Basic24     |    1     |                                                           | 
+|    Basic25     |    1     |                                                           | 
+|    Basic26     |    1     | It does have any report; however, counts 1 vulnerability. | 
+|    Basic27     |    1     |                                                           | 
+|    Basic28     |    2     |                                                           | 
+|    Basic29     |    2     |                                                           | 
+|    Basic30     |    1     |                                                           | 
+|    Basic31     |    3     |   It reports 3 BADs; however, counts 2 vulnerabilities.   | 
+|    Basic32     |    1     |                                                           | 
+|    Basic33     |    1     |                                                           | 
+|    Basic34     |    2     |                                                           | 
+|    Basic35     |    6     |                                                           | 
+|    Basic36     |    1     |                                                           | 
+|    Basic37     |    1     |                                                           | 
+|    Basic38     |    1     |                                                           | 
+|    Basic39     |    1     |                                                           | 
+|    Basic40     |    1     | It does have any report; however, counts 1 vulnerability. | 
+|    Basic41     |    1     |                                                           | 
+|    Basic42     |    1     |                                                           | 
+|     TOTAL      |    61    |                                                           | 
 
 - **CollectionTest** - 14 tests that holds 15 TP.
 
-|      Test      | Expected |                   Comment                    |
-|:--------------:|:--------:|:--------------------------------------------:|
-|  Collection1   |    1     |                                              | 
-|  Collection2   |    1     |                                              | 
-|  Collection3   |    2     |                                              | 
-|  Collection4   |    1     |                                              | 
-|  Collection5   |    1     |                                              | 
-|  Collection6   |    1     |                                              | 
-|  Collection7   |    1     |                                              | 
-|  Collection8   |    1     |                                              | 
-|  Collection9   |    1     | It looks that there is no leak in this test. | 
-|  Collection10  |    1     |    The value of var vuln_count is wrong.     | 
-|  Collection11  |    1     |                                              | 
-|  Collection12  |    1     |                                              | 
-|  Collection13  |    1     |                                              | 
-|  Collection14  |    1     |                                              | 
-|     TOTAL      |    15    |                                              |
+|      Test      | Expected |                          Comment                          |
+|:--------------:|:--------:|:---------------------------------------------------------:|
+|  Collection1   |    1     |                                                           | 
+|  Collection2   |    1     |                                                           | 
+|  Collection3   |    2     |                                                           | 
+|  Collection4   |    1     |                                                           | 
+|  Collection5   |    1     |                                                           | 
+|  Collection6   |    1     |                                                           | 
+|  Collection7   |    1     |                                                           | 
+|  Collection8   |    1     |                                                           | 
+|  Collection9   |    1     | It does have any report; however, counts 1 vulnerability. | 
+|  Collection10  |    1     |         ~~The value of var vuln_count is wrong.~~         | 
+|  Collection11  |    1     |                                                           | 
+|  Collection12  |    1     |                                                           | 
+|  Collection13  |    1     |                                                           | 
+|  Collection14  |    1     |                                                           | 
+|     TOTAL      |    15    |                                                           |
 
 
 - **DataStructureTest** - 6 tests that holds 6 TP.
 
-|      Test      | Expected |                        Comment                         |
-|:--------------:|:--------:|:------------------------------------------------------:|
-| DataStructure1 |    1     |                                                        |
-| DataStructure2 |    1     |                                                        |
-| DataStructure3 |    1     |                                                        |
-| DataStructure4 |    1     | The comment says OK; however it counts 1 vulnerability |
-| DataStructure5 |    1     |                                                        |
-| DataStructure6 |    1     |                                                        |
-|     TOTAL      |    6     |                                                        |
+|      Test      | Expected |                          Comment                          |
+|:--------------:|:--------:|:---------------------------------------------------------:|
+| DataStructure1 |    1     |                                                           |
+| DataStructure2 |    1     |                                                           |
+| DataStructure3 |    1     |                                                           |
+| DataStructure4 |    1     | It does have any report; however, counts 1 vulnerability. |
+| DataStructure5 |    1     |                                                           |
+| DataStructure6 |    1     |                                                           |
+|     TOTAL      |    6     |                                                           |
 
 - **FactoryTest** - 3 tests that holds 3 TP.
 
@@ -148,23 +148,23 @@ Structure
 
 - **InterTest** - 14 tests that holds 17 TP.
 
-|      Test      | Expected |                          Comment                           |
-|:--------------:|:--------:|:----------------------------------------------------------:|
-|     Inter1     |    1     |                                                            |
-|     Inter2     |    2     | The comments say 1 BAD; however it counts 2 vulnerability. |
-|     Inter3     |    1     |                                                            |
-|     Inter4     |    2     | The comments say 1 BAD; however it counts 2 vulnerability  |
-|     Inter5     |    2     | The comments say 1 BAD; however it counts 2 vulnerability  |
-|     Inter6     |    1     |                                                            |
-|     Inter7     |    1     |                                                            |
-|     Inter8     |    1     |                                                            |
-|     Inter9     |    1     | The comments say 2 BADs; however it counts 1 vulnerability |
-|    Inter10     |    1     |           The value of var vuln_count is wrong.            |
-|    Inter11     |    1     |                                                            |
-|    Inter12     |    1     |                                                            |
-|    Inter13     |    1     |                                                            |
-|    Inter14     |    1     |                                                            |
-|     TOTAL      |    17    |                                                            |
+|      Test      | Expected |                       Comment                        |
+|:--------------:|:--------:|:----------------------------------------------------:|
+|     Inter1     |    1     |                                                      |
+|     Inter2     |    2     | It reports 1 BAD; however, counts 2 vulnerabilities. |
+|     Inter3     |    1     |                                                      |
+|     Inter4     |    2     | It reports 1 BAD; however, counts 2 vulnerabilities. |
+|     Inter5     |    2     | It reports 1 BAD; however, counts 2 vulnerabilities. |
+|     Inter6     |    1     |                                                      |
+|     Inter7     |    1     |                                                      |
+|     Inter8     |    1     |                                                      |
+|     Inter9     |    1     |  It reports 2 BADs; however, counts 1 vulnerability  |
+|    Inter10     |    1     |      ~~The value of var vuln_count is wrong.~~       |
+|    Inter11     |    1     |                                                      |
+|    Inter12     |    1     |                                                      |
+|    Inter13     |    1     |                                                      |
+|    Inter14     |    1     |                                                      |
+|     TOTAL      |    17    |                                                      |
 
 
 - **SessionTest** - 3 tests that holds 3 TP.
