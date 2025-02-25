@@ -29,15 +29,15 @@ Structure
 
 - **AliasingTest** - 6 tests that holds 12 TP.
 
-|      Test      | Expected |                          Comment                          |
-|:--------------:|:--------:|:---------------------------------------------------------:|
-|   Aliasing1    |    1     |                                                           | 
-|   Aliasing2    |    1     | It does have any report; however, counts 1 vulnerability. | 
-|   Aliasing3    |    1     |                                                           | 
-|   Aliasing4    |    1     |    It reports 2 BADs; however, counts 1 vulnerability.    | 
-|   Aliasing5    |    1     |                                                           | 
-|   Aliasing6    |    7     |                                                           | 
-|     TOTAL      |    12    |                                                           |
+|      Test      | Expected |                                  Comment                                   |
+|:--------------:|:--------:|:--------------------------------------------------------------------------:|
+|   Aliasing1    |    1     |                                                                            | 
+|   Aliasing2    |    1     | It does have any report; however, counts 1 vulnerability. (false positive) | 
+|   Aliasing3    |    1     |                                                                            | 
+|   Aliasing4    |    1     |            It reports 2 BADs; however, counts 1 vulnerability.             | 
+|   Aliasing5    |    1     |                                                                            | 
+|   Aliasing6    |    7     |                                                                            | 
+|     TOTAL      |    12    |                                                                            |
 
 - **ArraysTest** - 10 tests that holds 9 TP.
 
@@ -126,15 +126,15 @@ Structure
 
 - **DataStructureTest** - 6 tests that holds 6 TP.
 
-|      Test      | Expected |                          Comment                          |
-|:--------------:|:--------:|:---------------------------------------------------------:|
-| DataStructure1 |    1     |                                                           |
-| DataStructure2 |    1     |                                                           |
-| DataStructure3 |    1     |                                                           |
-| DataStructure4 |    1     | It does have any report; however, counts 1 vulnerability. |
-| DataStructure5 |    1     |                                                           |
-| DataStructure6 |    1     |                                                           |
-|     TOTAL      |    6     |                                                           |
+|      Test      | Expected |                                   Comment                                   |
+|:--------------:|:--------:|:---------------------------------------------------------------------------:|
+| DataStructure1 |    1     |                                                                             |
+| DataStructure2 |    1     |                                                                             |
+| DataStructure3 |    1     |                                                                             |
+| DataStructure4 |    1     | It does have any report; however, counts 1 vulnerability. (false positive)  |
+| DataStructure5 |    1     |                                                                             |
+| DataStructure6 |    1     |                                                                             |
+|     TOTAL      |    6     |                                                                             |
 
 - **FactoryTest** - 3 tests that holds 3 TP.
 
