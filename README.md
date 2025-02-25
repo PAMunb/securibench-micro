@@ -151,7 +151,7 @@ Structure
 |      Test      | Expected |                       Comment                        |
 |:--------------:|:--------:|:----------------------------------------------------:|
 |     Inter1     |    1     |                                                      |
-|     Inter2     |    2     | It reports 1 BAD; however, counts 2 vulnerabilities. |
+|     Inter2     |    2     |                                                      |
 |     Inter3     |    1     |                                                      |
 |     Inter4     |    2     | It reports 1 BAD; however, counts 2 vulnerabilities. |
 |     Inter5     |    2     | It reports 1 BAD; however, counts 2 vulnerabilities. |
