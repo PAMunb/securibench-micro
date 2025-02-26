@@ -2,7 +2,7 @@
 
 This is a fork of Securibench Micro repository https://github.com/too4words/securibench-micro and its main goals is to upgrade the way "servlets" are handle.
 
-We haved moved from **javax servlet api** to **Jakarta servlet** and in order not to lost the old code we have versioned it in two folders.
+We have moved from **javax servlet api** to **Jakarta servlet** and in order not to lose the old code we have versioned it in two folders.
 
 This test suite contents 122 tests allocate in 12 categories.
 
