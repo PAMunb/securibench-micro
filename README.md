@@ -12,21 +12,21 @@ This test suite contents 122 tests allocate in 12 categories.
 
 ### Structure
 
-|      Test       |  Σ  | TP  |
-|:---------------:|:---:|:---:|
-|    Aliasing     |  6  | 12  |   
-|      Array      | 10  |  9  |  
-|      Basic      | 42  | 60  | 
-|   Collection    | 15  | 16  | 
-|  DataStructure  |  6  |  6  | 
-|     Factory     |  3  |  3  |  
-|      Inter      | 14  | 17  |
-|    ~~Pred~~     |  9  |  -  | 
-| ~~Reflection~~  |  4  |  -  | 
-| ~~Sanitizers~~  |  6  |  -  |
-|     Session     |  3  |  3  |  
-|  StrongUpdate   |  5  |  1  | 
-|    **TOTAL**    | 104 | 128 |
+|      Test       |   Σ    | TP  |
+|:---------------:|:------:|:---:|
+|    Aliasing     |   6    | 12  |   
+|      Array      |   10   |  9  |  
+|      Basic      |   42   | 60  | 
+|   Collection    |   15   | 16  | 
+|  DataStructure  |   6    |  6  | 
+|     Factory     |   3    |  3  |  
+|      Inter      |   14   | 17  |
+|    ~~Pred~~     | ~~9~~  |  -  | 
+| ~~Reflection~~  | ~~4~~  |  -  | 
+| ~~Sanitizers~~  | ~~6~~  |  -  |
+|     Session     |   3    |  3  |  
+|  StrongUpdate   |   5    |  1  | 
+|    **TOTAL**    |  104   | 128 |
 
 - **AliasingTest** - 6 tests that holds 12 TP.
 
