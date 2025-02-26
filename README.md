@@ -1,5 +1,4 @@
-Securibench Micro (Upgrade)
-=================
+## Securibench Micro (Upgrade)
 
 This is a fork of Securibench Micro repository https://github.com/too4words/securibench-micro and its main goals is to upgrade the way "servlets" are handle.
 
@@ -11,8 +10,7 @@ This test suite contents 122 tests allocate in 12 categories.
 
 ***src/securibench/v2***: contents the test suite using **Jakarta servlet** (upgraded)
 
-Structure
-=================
+### Structure
 
 |      Test       |  Σ  | TP  |
 |:---------------:|:---:|:---:|
