@@ -17,7 +17,7 @@ This test suite contents 122 tests allocate in 12 categories.
 |    Aliasing     |  6  | 12  |   
 |      Array      | 10  |  9  |  
 |      Basic      | 42  | 60  | 
-|   Collection    | 14  | 15  | 
+|   Collection    | 15  | 16  | 
 |  DataStructure  |  6  |  6  | 
 |     Factory     |  3  |  3  |  
 |      Inter      | 14  | 17  |
@@ -26,7 +26,7 @@ This test suite contents 122 tests allocate in 12 categories.
 | ~~Sanitizers~~  |  6  |  -  |
 |     Session     |  3  |  3  |  
 |  StrongUpdate   |  5  |  1  | 
-|    **TOTAL**    | 103 | 127 |
+|    **TOTAL**    | 104 | 128 |
 
 - **AliasingTest** - 6 tests that holds 12 TP.
 
@@ -104,26 +104,26 @@ This test suite contents 122 tests allocate in 12 categories.
 |    Basic42     |    1     |                                                           | 
 |     TOTAL      |    60    |                                                           | 
 
-- **CollectionTest** - 14 tests that holds 15 TP.
+- **CollectionTest** - 15 tests that holds 16 TP.
 
-|        Test        | Expected |                          Comment                          |
-|:------------------:|:--------:|:---------------------------------------------------------:|
-|    Collection1     |    1     |                                                           | 
-|    Collection2     |    1     |                                                           | 
-|    Collection3     |    2     |                                                           | 
-|    Collection4     |    1     |                                                           | 
-|    Collection5     |    1     |                                                           | 
-|    Collection6     |    1     |                                                           | 
-|    Collection7     |    1     |                                                           | 
-|    Collection8     |    1     |                                                           | 
-|    Collection9     |    1     | It does have any report; however, counts 1 vulnerability. | 
-|    Collection10    |    1     |         ~~The value of var vuln_count is wrong.~~         | 
-|    Collection11    |    1     |                                                           | 
-| ~~Collection11b~~  |  ~~1~~   |                                                           | 
-|    Collection12    |    1     |                                                           | 
-|    Collection13    |    1     |                                                           | 
-|    Collection14    |    1     |                                                           | 
-|       TOTAL        |    15    |                                                           |
+|      Test      | Expected |                          Comment                          |
+|:--------------:|:--------:|:---------------------------------------------------------:|
+|  Collection1   |    1     |                                                           | 
+|  Collection2   |    1     |                                                           | 
+|  Collection3   |    2     |                                                           | 
+|  Collection4   |    1     |                                                           | 
+|  Collection5   |    1     |                                                           | 
+|  Collection6   |    1     |                                                           | 
+|  Collection7   |    1     |                                                           | 
+|  Collection8   |    1     |                                                           | 
+|  Collection9   |    1     | It does have any report; however, counts 1 vulnerability. | 
+|  Collection10  |    1     |         ~~The value of var vuln_count is wrong.~~         | 
+|  Collection11  |    1     |                                                           | 
+| Collection11b  |    1     |                                                           | 
+|  Collection12  |    1     |                                                           | 
+|  Collection13  |    1     |                                                           | 
+|  Collection14  |    1     |                                                           | 
+|     TOTAL      |    16    |                                                           |
 
 
 - **DataStructureTest** - 6 tests that holds 6 TP.
