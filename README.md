@@ -1,6 +1,6 @@
 ## Securibench Micro (Upgrade)
 
-This is a fork of Securibench Micro repository https://github.com/too4words/securibench-micro and its main goals is to upgrade the way "servlets" are handle.
+This is a fork of Securibench Micro repository and its main goals is to upgrade the way "servlets" are handle.
 
 We have moved from **javax servlet api** to **Jakarta servlet** and in order not to lose the old code we have versioned it in two folders.
 
@@ -190,4 +190,10 @@ This test suite contents 122 tests allocate in 12 categories.
 | StrongUpdate5  |    0     |                                                            |
 |     TOTAL      |    1     |                                                            |
 
+### OBSERVATIONS
+ - There are some test cases that the amount of expected values do not match with the comments in their code. 
+ - There is no documentation that indicates if these expected values are True or False Positive.
 
+### REPOSITORIES
+ - https://github.com/too4words/securibench-micro
+ - https://too4words.github.io/securibench-micro/
