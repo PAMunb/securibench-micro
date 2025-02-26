@@ -43,7 +43,7 @@ public class Basic40 extends BasicTestCase implements MicroTestCase {
 		String name = mreq.getParameter(FIELD_NAME);
 
 		PrintWriter writer = resp.getWriter();
-		writer.println(name); /* BAD */
+		writer.println(name);
 	}
 
 	public String getDescription() {

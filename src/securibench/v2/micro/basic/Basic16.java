@@ -53,7 +53,7 @@ public class Basic16 extends BasicTestCase implements MicroTestCase {
 		w.setContents(s);
 
 		PrintWriter writer = resp.getWriter();
-		writer.println(w.getContents()); /* BAD */
+		writer.println(w.getContents());
 	}
 
 	public String getDescription() {
