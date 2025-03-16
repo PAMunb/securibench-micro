@@ -11,13 +11,14 @@ This test suite contents 122 tests allocate in 12 categories.
 ***src/securibench/v2***: contents the test suite using **Jakarta servlet** (upgraded)
 
 ### Structure
+> 103 tests.
 
 |      Test       |   Σ    | TP  |
 |:---------------:|:------:|:---:|
 |    Aliasing     |   6    | 12  |   
 |      Array      |   10   |  9  |  
 |      Basic      |   42   | 60  | 
-|   Collection    |   15   | 16  | 
+|   Collection    |   14   | 16  | 
 |  DataStructure  |   6    |  6  | 
 |     Factory     |   3    |  3  |  
 |      Inter      |   14   | 17  |
@@ -26,7 +27,7 @@ This test suite contents 122 tests allocate in 12 categories.
 | ~~Sanitizers~~  | ~~6~~  |  -  |
 |     Session     |   3    |  3  |  
 |  StrongUpdate   |   5    |  1  | 
-|    **TOTAL**    |  104   | 128 |
+|    **TOTAL**    |  103   | 128 |
 
 - **AliasingTest** - 6 tests that holds 12 TP.
 
@@ -56,7 +57,7 @@ This test suite contents 122 tests allocate in 12 categories.
 |    Array10     |    1     |                                                 | 
 |     TOTAL      |    9     |                                                 | 
 
-- **BasicTest** - 42 tests that holds 61 TP.
+- **BasicTest** - 42 tests that holds 60 TP.
 
 |      Test      | Expected |                          Comment                          |
 |:--------------:|:--------:|:---------------------------------------------------------:|
