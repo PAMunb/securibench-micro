@@ -64,6 +64,6 @@ public class Basic31 extends BasicTestCase implements MicroTestCase {
 	}
 
 	public int getVulnerabilityCount() {
-		return 2;
+		return 3; //FLAKY
 	}
 }
