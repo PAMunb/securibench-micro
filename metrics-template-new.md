@@ -27,6 +27,8 @@
 
 ### DETAILS
 
+- ✅ : PASSED; ❌ : FAIL
+
 - **AliasingTest** - failed: 0, passed: 0, ignored: 0 of 6 test.
 
 |      Test      | Expected | Actual | Status | TP  | FP  | Precision | Recall | F-score |
